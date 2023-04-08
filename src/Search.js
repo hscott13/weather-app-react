@@ -34,21 +34,21 @@ export default function Search(props) {
   return (
     <div className="title">
       <div className="contianer px-5 py-3">
-        <div className="row">
+        <div className="row d-flex align-items-center">
           <div className="col">
             <h1>What's the weather like in...</h1>
           </div>
-          <div className="col pt-3 text-center ">
+          <div className="col text-center ">
             <form className="search text-center" onSubmit={searchCity}>
               <input
-                className="input text-center py-1 border border-dark border-2 fs-5 rounded-pill"
+                className="input text-center py-2 border border-dark border-2 fs-5 rounded-pill"
                 type="text"
                 autoFocus="on"
                 id="city-input"
                 onChange={updateCity}
               />
               <button
-                className="button-form m-1 py-1 border border-dark border-2 fs-5 rounded-pill"
+                className="button-form m-2 py-2 border border-dark border-2 fs-5 rounded-pill"
                 type="submit"
               >
                 <span role="img" aria-label="magnifying-glass-emoji">
@@ -56,12 +56,6 @@ export default function Search(props) {
                 </span>
               </button>
             </form>
-            <button
-              className="text-center text-decoration-underline"
-              id="current-location-button"
-            >
-              Current Location
-            </button>
           </div>
         </div>
       </div>

@@ -10,9 +10,6 @@ export default function Forecast(props) {
             <div className="col text-center">
               <div className="main">
                 <h2 className="p-0">{props.weather.name}</h2>
-                <p id="current-date" className="fs-5">
-                  12:55 16/12/2022
-                </p>
               </div>
               <span className="icon">
                 <img
@@ -37,15 +34,15 @@ export default function Forecast(props) {
                   <div className="text-center">
                     <ul className="list-group list-group-flush">
                       <li
-                        className="list-group-item py-3 fs-5 border-secondary fw-bold"
+                        className="list-group-item py-3 fs-4 border-secondary fw-bold"
                         id="weather-description"
                       >
                         {props.weather.description}
                       </li>
-                      <li className="list-group-item py-3 fs-5 border-secondary">
+                      <li className="list-group-item py-3 fs-4 border-secondary">
                         Clouds: {props.weather.clouds}%
                       </li>
-                      <li className="list-group-item py-3 fs-5 ">
+                      <li className="list-group-item py-3 fs-4 ">
                         Wind: {props.weather.wind}m/s
                       </li>
                     </ul>
