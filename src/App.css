@@ -2,6 +2,9 @@
   margin: 10px;
   font-family: "DM Sans", sans-serif;
   width: 800px;
+  margin: 0 auto;
+}
+.body {
   border: 4px solid rgb(0, 0, 0);
 }
 h1,

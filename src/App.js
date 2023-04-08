@@ -5,12 +5,23 @@ import Forecast from "./Forecast";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Search />
-        <hr />
-        <Forecast />
-      </header>
+    <div className="App pt-3">
+      <div className="body">
+        <header className="App-header">
+          <Search />
+          <hr />
+          <Forecast />
+        </header>
+      </div>
+      <div>
+        <a href="https://github.com/hscott13/weather-app-react">
+          Open-source code
+        </a>
+        , Written by{" "}
+        <a href="https://celebrated-arithmetic-8e4959.netlify.app/">
+          Heather Scott
+        </a>
+      </div>
     </div>
   );
 }
