@@ -1,7 +1,6 @@
 import "./App.css";
 
 import Search from "./Search";
-import Forecast from "./Forecast";
 
 function App() {
   return (
@@ -9,8 +8,6 @@ function App() {
       <div className="body">
         <header className="App-header">
           <Search />
-          <hr />
-          <Forecast />
         </header>
       </div>
       <div>
